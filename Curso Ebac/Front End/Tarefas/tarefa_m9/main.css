@@ -1,0 +1,49 @@
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content:center ;
+    padding-top: 290px;
+    font-size: 20px;
+}
+
+input, button {
+    padding: 8px;
+}
+
+form {
+    padding: 24px 0;
+    text-align:center;
+}
+
+form input {
+    font-size: 30px;
+    width: 10px 0;
+}
+
+form button{
+    font-size: 30px;
+}
+
+ul {
+    justify-content: center;
+    padding: 24px;
+    list-style-position:inside;
+    padding-left: 780px;
+    display: block;
+    font-size: 30px;    
+}
+
+
+li {
+    cursor: pointer;
+}
+
+li.clicked {
+    text-decoration: line-through;
+}

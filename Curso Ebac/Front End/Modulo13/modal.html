@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+</head>
+<body>
+    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exemplo" >
+        Abrir modal
+    </button>
+    <div class="modal" id="exemplo"data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Título da modal</h5>
+                    <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, dolorum asperiores culpa suscipit corrupti amet voluptatum sequi! Ipsa in et repellendus repellat fuga minus vel quis, velit modi quos neque.</p>
+                </div>
+                <div class="modal-footer">
+                    <button data-bs-dismiss="modal" type="button" class="btn btn-danger">Cancelar</button>
+                    <button data-bs-dismiss="modal" type="button" class="btn btn-success">Confirmar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            const modalExemplo = new bootstrap.Modal('#exemplo')
+            setTimeout(() => {
+                modalExemplo.show(); 
+            }, 3000);
+            
+        })
+    </script>
+</body>
+</html>
