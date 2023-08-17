@@ -1,0 +1,112 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.navbar{
+    background-color: #ddebec;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #50b58c;
+    
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand, 
+.navbar-brand:hover,
+.nav-cardapio .nav-link.nav-link.active:hover {
+    color:#aecfd2;
+}
+
+
+.card {
+    background-color: #fbfffd;
+}
+
+.navbar-toggler{
+    background-color: #aecfd2;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.botao-tratamentos {
+    background-color: #AECFD2;
+    color:black;
+    
+}
+
+
+#cardapio {
+    background-color:#aecfd2;
+    
+}
+
+.text-colered {
+    color: #50b58c;
+}
+
+.nav-cardapio .nav-link.active, 
+#fale-conosco button {
+    background-color: #50b58c;
+    color: #fff;
+} 
+
+.nav-cardapio .nav-link:hover {
+    color: #50b58c;
+}
+.social-links li{
+    list-style: none;
+    
+}
+
+.social-links a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    text-align: start;
+    
+}
+
+
+.logo-img {
+    max-height: 190px; /* Ajuste este valor conforme necessário */
+    
+    
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.border{
+    background-color: #ffff;
+}
+
+.map-box iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.map-box{
+    max-width: 100%;
+    height: 500px;
+    background-color: #fff;
+}
+
+
+@media (max-width:767px) {
+    .carousel-item img {
+        height: 180px;
+    }
+    
+    .logo-img {
+        max-height: 110px; /* Ajuste este valor conforme necessário */
+        
+    }
+
+}
+
