@@ -1,0 +1,1 @@
+function multiplicacao(o,l){return o*l}const resultado=multiplicacao(5,10);console.log(resultado);
