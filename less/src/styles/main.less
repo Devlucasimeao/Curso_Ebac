@@ -1,5 +1,16 @@
 @import "mapas.less";
 
+.titulos(@size: initial, @color: #000000, @align: initial) {
+    font-size: @size;
+    color: @color;
+    text-align: @align;
+}
+
+
+h2 {
+    .titulos(1.5em,#000000,left);
+}
+
 * {
     margin: 0;
     padding: 0;
